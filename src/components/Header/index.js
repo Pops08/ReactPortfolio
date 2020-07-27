@@ -3,7 +3,7 @@ import Nav from '../Nav';
 import AboutMe from '../pages/aboutme';
 import Portfolio from '../Portfolio';
 import Contact from '../pages/contact';
-// import Resume from '../pages/resume';
+import Resume from '../pages/resume';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function PortfolioHeader() {
@@ -23,8 +23,8 @@ function PortfolioHeader() {
       case 'Contact': 
       return (<Contact/>)
 
-    //   case 'Resume':
-    //   return (<Resume></Resume>)
+      case 'Resume':
+      return (<Resume />)
 
       default: 
       return(<AboutMe />)
